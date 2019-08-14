@@ -12,10 +12,11 @@ end
 
 def assign_rooms(array)
   arr = []
-  index = 1
+
   array.each_with_index do |name, index|
-    arr << "Hello #{name}! You'll be assigned to room #{index}!"
-    index += 1
+    i = index + 1
+    arr << "Hello #{name}! You'll be assigned to room #{i}!"
+
   end
   arr
 end
