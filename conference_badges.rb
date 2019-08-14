@@ -19,11 +19,11 @@ def assign_rooms(array)
   arr
 end
 
-def printer
+def printer(array)
   batch_badge_creator.each do |badge|
     puts badge
   end
   assign_rooms.each do |assignment|
     puts assignment
   end
-end 
+end
