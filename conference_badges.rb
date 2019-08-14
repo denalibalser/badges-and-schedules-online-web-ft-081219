@@ -1,5 +1,5 @@
 def badge_maker(array)
-  array.map do |name|
+  array.each do |name|
     "Hello, my name is #{name}."
   end
 end
